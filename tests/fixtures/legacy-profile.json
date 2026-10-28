@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "preferences": {
+    "appearance": "dark",
+    "sound_enabled": false,
+    "effects_volume": 0.42,
+    "music_enabled": true,
+    "music_track": "sunroom",
+    "music_volume": 0.3,
+    "onboarding_seen": true
+  },
+  "stats": {
+    "easy": {
+      "completed_ids": [],
+      "generated_completed": 2,
+      "wins": 3,
+      "losses": 1,
+      "total_win_ms": 65000,
+      "best_win_ms": 12000,
+      "playtime_ms": 95000
+    }
+  },
+  "last_result_id": "fixture-result",
+  "active": {
+    "puzzle_id": "easy-01",
+    "attempt_id": "fixture-attempt",
+    "cells": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "lives": 1,
+    "mode": 1,
+    "elapsed_ms": 42000,
+    "selection_mode": "fixed"
+  }
+}

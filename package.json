@@ -1,0 +1,41 @@
+{
+  "name": "number-sums-browser",
+  "private": true,
+  "version": "1.0.2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node tools/build-sw.mjs",
+    "test": "vitest run",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name number-sums-game --branch main",
+    "test:browser": "node tests/browser.mjs",
+    "test:runtime": "node tests/runtime.mjs",
+    "test:upgrade": "node tests/upgrade.mjs",
+    "test:layout": "node tests/layout.mjs",
+    "test:release": "node tests/release-verifier.mjs",
+    "test:popups": "node tests/compact-popups.mjs",
+    "test:feedback": "node tests/feedback-ui.mjs",
+    "test:discard": "node tests/discard-flow.mjs",
+    "test:start": "node tests/start-cue.mjs",
+    "test:fullscreen": "node tests/fullscreen.mjs",
+    "test:battery": "node tests/battery.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.6.0",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "@vitejs/plugin-react-swc": "4.1.0",
+    "playwright": "1.64.1",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3",
+    "vite": "7.1.7",
+    "vitest": "4.1.11",
+    "wrangler": "4.127.1",
+    "esbuild": "0.25.12"
+  }
+}

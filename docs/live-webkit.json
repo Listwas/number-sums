@@ -1,0 +1,17 @@
+{
+  "url": "https://number-sums-game.pages.dev",
+  "engine": "webkit",
+  "assets": 13,
+  "bytes": 325135,
+  "verifiedAt": "2026-10-28T00:49:58.767Z",
+  "checks": [
+    "all published assets byte-identical",
+    "no music/font/engine payload",
+    "dark theme",
+    "new puzzle",
+    "accepted move",
+    "save/reload",
+    "offline continuation",
+    "no uncaught exceptions"
+  ]
+}

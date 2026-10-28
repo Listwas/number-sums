@@ -1,0 +1,33 @@
+{
+  "background_color": "#f4f2ec",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "sizes": "144x144",
+      "src": "index.144x144.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "180x180",
+      "src": "index.180x180.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "index.512x512.png",
+      "type": "image/png"
+    }
+  ],
+  "name": "Number Sums",
+  "orientation": "any",
+  "start_url": "./",
+  "id": "./",
+  "scope": "./",
+  "short_name": "Number Sums",
+  "theme_color": "#f4f2ec",
+  "description": "A quiet number puzzle. No ads, no accounts. Play offline.",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ]
+}
